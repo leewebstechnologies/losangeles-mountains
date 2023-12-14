@@ -2,70 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="./images/losangeles_logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>LOS ANGELES MOUNTAINS</title>
+    <title>Bootstrap demo</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@700&display=swap"
       rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        outline: none;
+        font-family: "Lato", sans-serif;
+      }
+
+      html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 62.5%;
+        overflow-x: hidden !important;
+      }
+    </style>
   </head>
   <body>
-    <!-- nav -->
-    <nav class="navbar">
-      <img
-        src="images/losangeles_logo.png"
-        class="logo"
-        alt="losangeles logo"
-      />
-      <div class="title">
-        <h5 class="name">LOSANGELES</h5>
-        <h5 class="mountains">MOUNTAINS</h5>
+    <div class="container-fluid">
+      <div class="section-1">
+        <a class="logo" href="#">
+          <img src="./images/logo.png" alt="logo" />
+        </a>
+        <nav class="navbar">
+          <a class="nav-link" href="#history-section"
+            ><strong><em>01. History</em></strong></a
+          >
+          <a class="nav-link" href="#history-section"
+            ><strong><em>02. Team</em></strong></a
+          >
+        </nav>
       </div>
-      <ul class="nav-links">
-        <li class="nav-link">
-          <a href="#history" class="link active">HISTORY</a>
-        </li>
-        <li class="nav-link"><a href="#team" class="link">TEAM</a></li>
-      </ul>
-    </nav>
-    <header>
-      <img class="header-img" src="images/header.jpg" alt="header image" />
-    </header>
-    <section>
-      <div class="history-img">
-        <img class="history" src="images/history.jpg" alt="" />
-        <p class="para">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ea
-          nostrum nesciunt optio repellat asperiores reiciendis vero deleniti nemo
-          esse quis, cum ipsa illo vel natus enim qui. Ex, eum.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ea
-          nostrum nesciunt optio repellat asperiores reiciendis vero deleniti nemo
-          esse quis, cum ipsa illo vel natus enim qui. Ex, eum.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ea
-          nostrum nesciunt optio repellat asperiores reiciendis vero deleniti nemo
-          esse quis, cum ipsa illo vel natus enim qui. Ex, eum.
-        </p>
-      </div>
-     
-    
-    </section>
+    </div>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
   </body>
